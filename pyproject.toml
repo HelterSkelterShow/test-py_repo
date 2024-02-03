@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "application"
+version = "0.0.1"
+description = ""
+authors = ["ya"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+pytest = "^8.0.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
